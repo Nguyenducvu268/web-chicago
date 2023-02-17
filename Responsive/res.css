@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    background: violet;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#pc,
+#tablet,
+#mobile {
+    display: none;
+    padding: 25px;
+}
+
+/* PC */
+@media only screen and (min-width: 1024px) {
+    #pc {
+        display: flex;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    #tablet {
+        display: flex;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    #mobile {
+        display: flex;
+    }
+}

@@ -1,0 +1,247 @@
+/* PC */
+@media only screen and (min-width: 64em) {
+    #header .nav-menu-btn {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .menu .main-menu>li>a {
+        padding: 0 16px;
+    }
+
+    #header .nav-menu-btn {
+        display: none;
+    }
+
+    #slider {
+        position: relative;
+        padding-top: 38%;
+        background-blend-mode: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+        background: url('../img/usaCity.png') bottom center / cover no-repeat;
+        height: 400px;
+    }
+
+    .content-slider {
+        top: 30%;
+    }
+
+    .content-slider h2 {
+        font-size: 45px;
+    }
+
+    .content-slider p {
+        font-weight: 400;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .row.form p {
+        line-height: 1.7;
+    }
+
+    .row .form-input {
+        font-size: 16px;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.2499999375em) {
+    #header {
+        height: 46px;
+    }
+
+    #header .menu {
+        display: block;
+        overflow: hidden;
+        background: white;
+        box-shadow: 0 0 8px rgba(30, 28, 28, 0.471);
+        /* height: auto; */
+    }
+
+    .menu .main-menu>li {
+        display: block;
+    }
+
+    .menu .main-menu>li>a {
+        display: block;
+    }
+
+    .menu .main-menu>li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn .fa-sharp {
+        display: none;
+    }
+
+    #header .nav-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .content-slider {
+        top: 30%;
+    }
+
+    .content-slider h2 {
+        font-size: 30px;
+    }
+
+    .content-slider p {
+        font-weight: 400;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .menu .main-menu li:hover .sub-menu {
+        position: initial;
+        display: block;
+    }
+
+    .menu .main-menu .sub-menu li a {
+        display: block;
+        color: rgb(141, 14, 141);
+        text-decoration: none;
+        line-height: 46px;
+        padding: 2px 35px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .menu .main-menu .sub-menu li:hover a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        line-height: 46px;
+        padding: 2px 35px;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .section-about {
+        padding: 35px 15px;
+    }
+
+    .section-about .section-mota {
+        margin-top: 15px;
+    }
+
+    .row.text-align {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .mobile-col {
+        width: 100%;
+    }
+
+    .mobile-col .name {
+        font-size: 20px;
+    }
+
+    .mobile-col .img-items {
+        margin-bottom: 15px;
+    }
+
+    .tour .address-tour {
+        display: block;
+        margin: 0;
+    }
+
+    .tour .address-tour .address-items {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .row.form {
+        display: block;
+    }
+
+    .form-CRM {
+        text-align: center;
+    }
+
+    .btn-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buy-tickets,
+    .address-items .address-content button {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .col.col-2.mobile-col {
+        margin-bottom: 16px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    #slider {
+        position: relative;
+        padding-top: 38%;
+        background-blend-mode: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+        background: url('../img/usaCity.png') bottom center / cover no-repeat;
+        height: 300px;
+    }
+
+
+    input.col.col-2.form-input {
+        width: 100%;
+    }
+
+    input.col.col-2.form-input.form-input-2 {
+        margin-top: 8px;
+    }
+
+    .modal.open-popup {
+        position: fixed;
+        display: flex;
+        align-items: start;
+        transform: translateY(100px);
+        justify-content: center;
+        background: #0000007e;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .modal .modal-container {
+        max-width: calc(100% - 10%);
+        animation: popupFadedown ease 0.5s;
+    }
+
+    .modal-container .modal-header {
+        padding: 32px 16px;
+    }
+
+    .body-modal .modal-button-pay {
+        width: 100%;
+    }
+
+    #footer .list-icon-social i{
+        width: 45px;
+    }
+
+    @keyframes popupFadedown {
+        from {
+            opacity: 0.3;
+            transform: translateY(-150px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+}
